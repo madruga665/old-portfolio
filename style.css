@@ -1,3 +1,17 @@
 body {
     font-family:'Nunito', sans-serif;
 }
+
+#foto {
+    width: 150px;
+    border: 2px solid #1a1a1a;
+    border-radius: 100%;
+}
+#personal-card {
+    width: 300px;
+    height: 450px;
+    border: 2px solid black;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
