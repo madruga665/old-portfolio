@@ -68,3 +68,13 @@ body {
 #Trybe {
     border-radius: 100%;
 }
+
+hr {
+    position: absolute;
+left: 5.81%;
+right: 7.1%;
+top: 48.78%;
+bottom: 51.22%;
+
+border: 1px solid #DDDDDD;
+}
