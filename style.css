@@ -7,21 +7,64 @@ body {
     font-family:'Nunito', sans-serif;
     background-color: #303841;
 }
-
-#foto {
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-}
 #personal-side-bar {
+    position: absolute;
     width: 310px;
-    height: 100vh;
+    height: 1025px;
+    left: 0px;
+    top: 0px;
     background-color: #3A4750;
     display: block;
     text-align: center;
     padding: 10px;
 }
-#sobre {
-    font-size: 18;
+#foto {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    top: 64px;
+}
+
+.name {
+    position: absolute;
+    width: 220px;
+    height: 40px;
+    left: 45px;
+    top: 22px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
     color: #ffff;
+
+}
+#sobre {
+    position: absolute;
+    font-style: normal;
+    font-weight: 400px;
+    top: 289px;
+    left: 16px;
+    font-size: 18px;
+    color: #ffff;
+}
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    position: absolute;
+    left: 6.45%;
+    right: 6.45%;
+    top: 42.93%;
+    bottom: 53.17%;
+}
+
+.redes-sociais img {
+    width: 42px;
+}
+#Trybe {
+    border-radius: 100%;
 }
