@@ -1,0 +1,14 @@
+  <!-- </div>
+  <h3 id="habilidades">Minhas Habilidades</h3>
+  <ul>
+    <li>Raciocínio Ágil</li>
+    <li>Ética</li>
+    <li>Criatividade</li>
+    <li>Foco</li>
+    <li>Persistencia</li>
+  </ul>
+  <p>
+    Blog preferido
+    <a href="https://diolinux.com.br/" target="_blank"> Diolinux </a> é ótimo
+    pra quem gosta de <strong>linux</strong> assim como eu!
+  </p> -->

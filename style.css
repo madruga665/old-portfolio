@@ -1,18 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 body {
     font-family:'Nunito', sans-serif;
+    background-color: #303841;
 }
 
 #foto {
-    width: 150px;
-    border: 2px solid #1a1a1a;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
 }
-#personal-card {
-    width: 300px;
-    height: 450px;
-    border: 2px solid black;
-    border-radius: 15px;
+#personal-side-bar {
+    width: 310px;
+    height: 100vh;
+    background-color: #3A4750;
     display: block;
     text-align: center;
     padding: 10px;
+}
+#sobre {
+    font-size: 18;
+    color: #ffff;
 }
