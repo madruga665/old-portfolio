@@ -7,18 +7,16 @@ body {
     font-family:'Nunito', sans-serif;
     background-color: #303841;
 }
-#personal-side-bar {
+.personal-side-bar {
     position: absolute;
-    width: 310px;
-    height: 1025px;
-    left: 0px;
-    top: 0px;
+    width: 20em;
+    height: 62em;
     background-color: #3A4750;
     display: block;
     text-align: center;
     padding: 10px;
 }
-#foto {
+.foto {
     position: relative;
     width: 200px;
     height: 200px;
@@ -30,7 +28,7 @@ body {
     position: absolute;
     width: 220px;
     height: 40px;
-    left: 45px;
+    left: 60px;
     top: 22px;
     font-style: normal;
     font-weight: 800;
@@ -40,41 +38,38 @@ body {
     color: #ffff;
 
 }
-#sobre {
+.sobre {
     position: absolute;
     font-style: normal;
     font-weight: 400px;
-    top: 289px;
-    left: 16px;
-    font-size: 18px;
+    top: 20em;
+    font-size: 15px;
+    line-height: 20px;
     color: #ffff;
 }
 .redes-sociais {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
     justify-content: space-between;
 
     position: absolute;
-    left: 6.45%;
-    right: 6.45%;
-    top: 42.93%;
-    bottom: 53.17%;
+    left: 6%;
+    right: 6%;
+    top: 43%;
+    bottom: 53%;
 }
-
 .redes-sociais img {
     width: 42px;
 }
 #Trybe {
     border-radius: 100%;
 }
-
 hr {
     position: absolute;
-left: 5.81%;
-right: 7.1%;
-top: 48.78%;
-bottom: 51.22%;
+    left: 6%;
+    right: 7%;
+    top: 49%;
+    bottom: 51%;
 
-border: 1px solid #DDDDDD;
+    border: 1px solid #DDDDDD;
 }
