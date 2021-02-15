@@ -56,6 +56,10 @@ body {
 .redes-sociais img {
     width: 42px;
     cursor: pointer;
+    transition: 0.5s;
+}
+.redes-sociais img:hover {
+    transform: translateY(-5px);
 }
 #Trybe {
     border-radius: 100%;
@@ -88,7 +92,7 @@ hr {
     left: 5px;
 }
 #foto-landscape {
-    position: absolute;
+    position:absolute;
     width: 406px;
     height: 270px;
     right: 55px;
