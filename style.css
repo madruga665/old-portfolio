@@ -7,6 +7,7 @@ body {
     font-family:'Nunito', sans-serif;
     background-color: #303841;
 }
+/* side bar */
 .personal-side-bar {
     position: absolute;
     width: 20em;
@@ -28,12 +29,12 @@ body {
     position: absolute;
     width: 220px;
     height: 40px;
-    left: 60px;
-    top: 22px;
+    left: 2.5em;
+    top: 1em;
     font-style: normal;
     font-weight: 800;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 22px;
+    line-height: 30px;
     text-align: center;
     color: #ffff;
 
@@ -43,6 +44,7 @@ body {
     font-style: normal;
     font-weight: 400px;
     top: 20em;
+    left: 3em;
     font-size: 15px;
     line-height: 20px;
     color: #ffff;
@@ -60,9 +62,11 @@ body {
 }
 .redes-sociais img {
     width: 42px;
+    cursor: pointer;
 }
 #Trybe {
     border-radius: 100%;
+    cursor: pointer;
 }
 hr {
     position: absolute;
