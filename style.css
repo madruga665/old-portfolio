@@ -77,3 +77,20 @@ hr {
 
     border: 1px solid #DDDDDD;
 }
+.nome-ocupação {
+    position: absolute;
+    width: 370px;
+    height: 95px;
+    left: 425px;
+    top: 55px;
+}
+.nome-ocupação h1 {
+    font-size: 45px;
+    color:#ffff
+}
+.nome-ocupação h2 {
+    position: absolute;
+    font-size: 20px;
+    color: #929292;
+    left: 5px;
+}
