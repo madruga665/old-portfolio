@@ -70,12 +70,8 @@ p {
     cursor: pointer;
 }
 hr {
-    position: absolute;
-    left: 6%;
-    right: 7%;
-    top: 49%;
-    bottom: 51%;
-
+    position: relative;
+    top: 120px;
     border: 1px solid #DDDDDD;
 }
 .nome-ocupação {
@@ -116,6 +112,7 @@ hr {
     bottom: 35px;
 }
 .o-que-faço p {
+    min-width: 800px;
     
 }
 .traço-vertical {
@@ -123,4 +120,30 @@ hr {
     width: 5px;
     height: 45px;
     background-color: #E02F2F;
+}
+.azul {
+    background-color: #0A7BBA;
+}
+
+.lang-e-tec {
+    position: absolute;
+    width: 716px;
+    height: 337px;
+    left: 387px;
+    top: 700px;
+}
+.lang-e-tec h2 {
+    position: relative;
+    font-weight: 700;
+    color: #ffff;
+    left: 10px;
+    bottom: 35px;
+}
+.git {
+    width: 240px;
+    height: 240px;
+}
+.lang-e-tec img {
+    width: 45px;
+    margin-bottom: 15px;
 }
