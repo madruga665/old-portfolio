@@ -7,12 +7,23 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="side-bar.css">
   <title>Protifólio Luciano</title>
 </head>
 <body>
-  <div class="personal-side-bar">
-    <h1 class="name">Luciano Amâncio</h1>
-    <img src="images/foto-de-perfil.jpg" alt="Foto do Luciano" class="foto-de-perfil" />
+
+  <section>
+    <header class="nome-ocupação">
+      <h1>Luciano Amâncio</h1>
+        <h2>Estudante de Desenvolvimento Web</h2>
+        <img src="images/foto-landscape.JPG" alt="foto Luciano" id="foto-landscape">
+    </header>
+  </section>
+
+  <aside class="personal-side-bar">
+    <h2 class="nome">Luciano Amâncio</h2>
+    <img src="images/foto-de-perfil.jpg" alt="Foto do Luciano" class="foto-de-perfil"/>
     <p class="sobre">
       Olá! meu nome é Luciano Amâncio <br>
       sou estudante de <br>
@@ -20,7 +31,7 @@
       Bem Vindo ao meu web site <br>
       pessoal!
     </p>
-    <div class="redes-sociais">
+    <nav class="redes-sociais">
       <a href="https://www.instagram.com/madruga665/?hl=pt-br" target="_blank">
         <img src="images/instagram.svg" alt="icone instagram">
       </a>
@@ -33,31 +44,26 @@
       <a href="https://www.betrybe.com/" target="_blank">
         <img src="images/Trybe.jpg" alt="icone Trybe" id="Trybe">
       </a>
-    </div>
+    </nav>
     <hr>
-    <div class="sites-recomendados">
+    <nav class="sites-recomendados">
       <h2>Sites que Recomendo</h2>
       <ul>
         <li><a href="https://diolinux.com.br/" target="_blank">Diolinux</a></li>
       </ul>
-    </div>
-  </div>
+    </nav>
+  </aside>
   
-  <div class="nome-ocupação">
-    <h1>Luciano Amâncio</h1>
-    <h2>Estudante de Desenvolvimento Web</h2>
-  </div>
-  <img src="images/foto-landscape.JPG" alt="foto Luciano" id="foto-landscape">
-  <div class="o-que-faço">
+  <section class="o-que-faço">
     <div class="traço-vertical"></div>
     <h2>O que eu faço</h2>
     <p>
-       Atualmente estudo desenvolvimento web na Trybe onde vamos aprender as principais
+       Atualmente estudo desenvolvimento web na <span>Trybe</span> onde vamos aprender as principais
        tecnologias do mercado além de desenvolver soft skills com <br> dinamicas e trabalhos em grupos
        tudo para simular da melhor forma possivel um ambiente de trabalho real.
     </p>
-  </div>
-  <div class="lang-e-tec">
+  </section>
+  <section class="lang-e-tec">
     <div class="traço-vertical azul"></div>
     <h2>Linguagens e Tecnologias que uso no meu dia a dia</h2>
     <div class="git">
@@ -70,6 +76,6 @@
         (como são chamados os projetos que utilizam Git).
     </p>
   </div>
-  </div>
+  </section>
 </body>
 </html>
