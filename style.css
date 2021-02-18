@@ -10,7 +10,7 @@ p {
     position: absolute;
     width: 370px;
     height: 95px;
-    left: 371px;
+    left: 387px;
     top: 53px;
 }
 .nome-ocupação h1 {
@@ -34,7 +34,7 @@ p {
 .o-que-faço {
     position: absolute;
     left: 387px;
-    top: 500.09px;
+    top: 395px;
 }
 .o-que-faço h2 {
     position: relative;
@@ -44,8 +44,9 @@ p {
     bottom: 35px;
 }
 .o-que-faço p {
-    min-width: 800px;
-    
+    position: relative;
+    min-width: 1000px;
+    bottom: 10px;
 }
 .traço-vertical {
     position: relative;
@@ -59,10 +60,11 @@ p {
 
 .lang-e-tec {
     position: absolute;
+    display: inline-block;
     width: 716px;
     height: 337px;
     left: 387px;
-    top: 700px;
+    top: 590px;
 }
 .lang-e-tec h2 {
     position: relative;
@@ -72,10 +74,31 @@ p {
     bottom: 35px;
 }
 .git {
+    position: relative;
     width: 240px;
     height: 240px;
 }
 .lang-e-tec img {
     width: 45px;
     margin-bottom: 15px;
+    margin: 0px 15px 15px;
+}
+.lang-e-tec img:first-child {
+    margin-left: 0px;
+}
+
+.html-css-js {
+    position: relative;
+    width: 240px;
+    height: 240px;
+    bottom: 235px;
+    left: 350px;
+}
+.html-css-js img {
+    display: inline-block;
+    width: 40px;
+    margin: 0px 15px 15px;
+}
+.html-css-js img:first-child {
+    margin-left: 0px;
 }

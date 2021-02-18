@@ -1,5 +1,5 @@
 .personal-side-bar {
-    position: absolute;
+    position: fixed;
     width: 310px;
     height: 1025px;
     background-color: #3A4750;
