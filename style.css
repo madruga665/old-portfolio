@@ -74,6 +74,42 @@ hr {
     top: 120px;
     border: 1px solid #DDDDDD;
 }
+.sites-recomendados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sites-recomendados h2 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 800;
+    top: 150px;
+    color: #ffff;
+}
+.sites-recomendados li {
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    left: 150;
+    list-style-type: none;
+    width: 88px;
+    font-size: 22px;
+    top: 200px;
+    color: #ffff;
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+    transition: 500ms;
+
+}
+.sites-recomendados li::after {
+    display: block;
+    content: '';
+    border-bottom: solid 5px #E02F2F;
+    transform: scaleX(0);
+    transition: transform 500ms ease-in-out;
+}
+.sites-recomendados li:hover::after {
+    transform: scaleX(1);
+}
 .nome-ocupação {
     position: absolute;
     width: 370px;
