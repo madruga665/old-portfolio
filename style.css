@@ -10,25 +10,26 @@ p {
     position: absolute;
     width: 370px;
     height: 95px;
-    left: 387px;
+    left: 390px;
     top: 53px;
 }
 .nome-ocupação h1 {
+    position: relative;
     font-size: 45px;
     color:#ffff
 }
 .nome-ocupação h2 {
-    position: absolute;
+    position: relative;
     font-size: 20px;
     color: #929292;
     left: 5px;
 }
 #foto-landscape {
-    position:absolute;
+    position:relative;
     width: 406px;
     height: 270px;
-    left: 979px;
-    top: 53px;
+    left: 600px;
+    bottom: 100px;
     border-radius: 10px;
 }
 .o-que-faço {
