@@ -32,6 +32,35 @@ p {
     bottom: 100px;
     border-radius: 10px;
 }
+.btn {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    background-color: #E02F2F;
+    bottom: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn img {
+    position: relative;
+    width: 24px;
+    top: 8px;
+    left: 10px;
+}
+.btn p {
+    position: relative;
+    bottom: 23px;
+    left: 40px;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-azul {
+    position: relative;
+    left: 170px;
+    bottom: 190px;
+    background-color: #0A7BBA;
+}
 .o-que-faço {
     position: absolute;
     left: 387px;
