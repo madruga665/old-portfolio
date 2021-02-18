@@ -96,9 +96,13 @@ hr {
     font-size: 22px;
     top: 200px;
     color: #ffff;
-    border-bottom: 5px solid rgba(0, 0, 0, 0);
-    transition: 500ms;
+}
 
+/* efeito retirado do stackoverflow
+https://stackoverflow.com/questions/28623446/hover-effect-expand-bottom-border/28623513 */
+a {
+    color: inherit;
+    text-decoration: none;
 }
 .sites-recomendados li::after {
     display: block;
