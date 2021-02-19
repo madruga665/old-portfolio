@@ -132,3 +132,13 @@ p {
 .html-css-js img:first-child {
     margin-left: 0px;
 }
+
+#portfolio {
+    top: 1025px;
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    background-color: #90a4b3;
+    width: 1440px;
+    height: 1025px;
+}
