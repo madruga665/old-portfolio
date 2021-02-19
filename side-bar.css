@@ -7,38 +7,34 @@
     padding: 10px;
     align-items: center;
 }
-.foto-de-perfil {
+.personal-side-bar h2, img, p, nav, hr {
     position: relative;
+}
+.foto-de-perfil {
     width: 200px;
     height: 200px;
     border-radius: 100px;
     top: 25px;
 }
 .nome {
-    position: relative;
-    font-style: normal;
     font-weight: 800;
     font-size: 22px;
     color: #ffff;
 }
 .sobre {
-    position: relative;
-    font-style: normal;
-    font-weight: 400px;
     top: 70px;
     font-size: 15px;
     line-height: 20px;
     color: #ffff;
 }
 .redes-sociais {
-    position: relative;
     top: 110px;
 }
 .redes-sociais img {
     width: 42px;
     margin: 0px 10px;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 250ms;
 }
 .redes-sociais img:hover {
     transform: translateY(-5px);
@@ -48,7 +44,6 @@
     cursor: pointer;
 }
 hr {
-    position: relative;
     top: 120px;
     border: 1px solid #DDDDDD;
 }
@@ -63,13 +58,18 @@ hr {
     top: 10px;
     color: #ffff;
 }
+.sites-recomendados ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
 .sites-recomendados li {
     cursor: pointer;
-    position: relative;
-    text-align: center;
     list-style-type: none;
     font-size: 22px;
-    top: 50px;
     color: #ffff;
 }
 /* efeito retirado do stackoverflow
